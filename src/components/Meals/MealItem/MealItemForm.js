@@ -42,7 +42,7 @@ const MealItemForm = (props) => {
   const addItemsServer = ()=>{
     try{
 
-      fetch("http://ec2-54-237-248-252.compute-1.amazonaws.com:3306/insert", {
+      fetch("http://ec2-107-22-23-55.compute-1.amazonaws.com:3306//insert", {
         method: "POST",
         headers: {"Content-Type": "application/JSON"},
         body: JSON.stringify({
