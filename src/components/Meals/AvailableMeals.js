@@ -39,7 +39,7 @@ const [message, setMessage] = useState([]);
 
 useEffect(() => {
   //http://ec2-54-205-32-49.compute-1.amazonaws.com:3306/data http://ec2-54-237-248-252.compute-1.amazonaws.com:3306/data
-  fetch("http://ec2-54-237-248-252.compute-1.amazonaws.com:3306/data")
+  fetch("http://ec2-107-22-23-55.compute-1.amazonaws.com:3306/data")
     .then((res) => res.json())
     .then((data) => setMessage(data.message));
 
